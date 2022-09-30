@@ -1,5 +1,5 @@
-# include <stdbool.h>
-# include <stdio.h>
+#include <stdbool.h>
+#include <stdio.h>
 
 int main() {
 
@@ -8,11 +8,16 @@ int main() {
   bool sair;
   
   printf("Bem vindo a Calculadora escrita em C\n\n");
+  printf("Escolha a sua opção: ");
+  printf("1 - Soma\n");
+  printf("2 - Substração\n");
+  printf("3 - Divisão\n");
+  printf("4 - Multiplicação\n");
+  printf("5 - Raiz\n");
+  printf("6 - Potencia\n");
+  printf("Opção > ");
+  scanf("%d", &operacao);
 
-  printf("Digite a operação que deseja: \n");
-  printf("1 - Soma, 2 - Substração, 3 - Divisão, 4 - Multiplicação, 5 - Raiz, 6 - Potencia: \n");
-  scanf("%d", &operacao)
-   
   printf("Digite o numero 1: ");
   scanf("%f", &numero1);
 
