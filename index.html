@@ -5,21 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hemocentro</title>
-    <link rel="shortcut icon" href="./blood-drop.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./blood-drop.png" type="image/x-icon" />
     <style>
+      header {
+        display: flex;
+      }
+
       img {
         width: 10%;
         height: 10%;
-        border-radius: 20px;  
+        border-radius: 20px;
       }
 
-      table, th, td {
+      h1 {
+        color: #ad1216;
+      }
+
+      table,
+      th,
+      td {
         border: 1px solid black;
       }
-      
-      header {
-        display: flex;
-        align-items: left;
+
+      .sub-title {
+        font-size: 1.17em;
+        color: #002060;
+      }
+
+      h3 {
+        color: #002060;
       }
     </style>
   </head>
@@ -34,13 +48,11 @@
 
     <main>
       <p>
-        Doar sangue é um processo fácil, rápido, seguro e solidário. A doação de
-        sangue ocorre quando uma pessoa voluntariamente vai a um centro
-        especializado e disponibiliza seu sangue para ser usado em transfusões
-        ou outras situações clínicas.
+        Doar sangue é um processo fácil, rápido, seguro e solidário. 
+        A doação de sangue ocorre quando uma pessoa voluntariamente vai a um centro especializado e disponibiliza seu sangue para ser usado em transfusões ou outras situações clínicas.
       </p>
       <p>A classificação de doadores e receptores de sangue é:</p>
-      <table style="width: 30%;">
+      <table style="width: 30%">
         <tr>
           <th>Tipo Sanguíneo</th>
           <th>Doa para</th>
@@ -93,6 +105,31 @@
           <td>Todos os tipos Rh-</td>
         </tr>
       </table>
+
+      <p class="sub-title">Importância da doação de sangue</p>
+      <p>
+        A falta do estoque de sangue em um hospital pode levar ao cancelamento de cirurgias e de procedimentos. 
+        <br/>
+        Um exemplo é o paciente que faz quimioterapia, já que, caso não receba o suporte de transfusão, poderá não resistir ao tratamento.
+        <br/>
+        Saiba mais: 
+        <a href="https://www.minhavida.com.br/materias/materia-8522" target="_blank" rel="noopener noreferrer">Entenda como seu corpo reage após doar sangue.</a>
+      </p>
+
+      <h3>Requisitos para doação de sangue</h3>
+      <p>Existem normas nacionais e internacionais para a triagem de pessoas aptas a doar sangue, sendo que órgãos como o Ministério da Saúde e a Associação Americana de Bancos de Sangue são responsáveis por esse controle. 
+        <br/>
+      O alto rigor no cumprimento dessas normas garante a saúde das pessoas que receberão o sangue, uma vez que ele não pode estar contaminado com outras doenças.</p>
+      <p>Os requisitos para doação de sangue são:</p>
+      <ul>
+        <li>Estar em boas condições de saúde</li>
+        <li>Ter entre 16 e 69 anos. Pessoas acima de 60 anos só podem doar se já tiverem doado sangue alguma vez antes dessa idade</li>
+        <li>Pesar no mínimo 50kg</li>
+        <li>Estar descansado (ter dormido pelo menos 6 horas nas últimas 24 horas)</li>
+        <li>Estar alimentado, por isso evite alimentos gordurosos e aguarde até 2 horas para doar</li>
+        <li>Apresentar documento original com foto, que permita o reconhecimento do candidato, emitido por órgão oficial (Carteira de Identidade, Cartão de Identidade de Profissional Liberal, Carteira de Trabalho e Previdência Social).</li>
+      </ul>
+      <p>Pessoas com menos de 18 anos precisam estar acompanhadas dos responsáveis ou com formulário de autorização.</p>
     </main>
   </body>
 </html>
